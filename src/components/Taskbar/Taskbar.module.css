@@ -1,0 +1,43 @@
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  z-index: 100;
+}
+
+.startButton {
+  height: 32px;
+  padding: 0 24px;
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  cursor: pointer;
+}
+
+.startButton:active {
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.clock {
+  padding: 6px 10px;
+  border-top: 2px solid #808080;
+  border-left: 2px solid #808080;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}

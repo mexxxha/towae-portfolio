@@ -1,0 +1,16 @@
+.desktop {
+  position: relative;
+  min-height: 100dvh;
+  background: #008080;
+  color: #000;
+}
+
+.background {
+  object-fit: cover;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  padding: 16px;
+}

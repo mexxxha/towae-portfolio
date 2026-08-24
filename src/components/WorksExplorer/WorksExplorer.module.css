@@ -1,0 +1,28 @@
+.explorer {
+  display: flex;
+  width: 100%;
+  min-height: 300px;
+  background: #fff;
+}
+
+.worksArea {
+  flex: 1;
+  padding: 16px;
+}
+
+.sidebar {
+  width: 180px;
+  padding: 12px;
+  border-right: 1px solid #808080;
+}
+
+.sidebar h2 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.sidebar ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
